@@ -1,0 +1,65 @@
+body{background-color: white; color: #333; position: relative; min-height: 100vh; }
+
+p{font-family: Arial; color: #333; }
+.p1{margin: 20px; font-family: Arial; font-size: 100pt; text-align: center; color: white; }
+
+a{color: white; font-family: Arial; text-decoration: none; }
+a.aussaat{color: #333; font-family: Arial; text-decoration: none; }
+a.aussaat:hover{background-color: #d9897cff; color: white; padding: 2px 2px; border-radius: 5px; }
+a.back{color: #333; font-size: 24pt; position: fixed; padding: 0 0.2em; bottom: 0.5em; right: 0.5em; }
+a.back:hover{background-color: #d9897cff; color: white; }
+
+h1{font-family: Arial; color: #333; }
+h2{font-family: Arial; color: #333; }
+h3{font-family: Arial; color: white; }
+
+hover{cursor: pointer; }
+
+.info{background-image: url('/Pflanzenwebsite/bilder/image2.jpg'); max-width:100%; text-align: center; vertical-align: middle; font-size: 60px; font-family: Arial; color: white; }
+.info1{background-image: url('/Pflanzenwebsite/bilder/image2.jpg'); height=100%; font-family: Arial; color: white; }
+
+figure{display: table-cell; padding: 4px; text-align: center; }
+img.bild{width: 170px; height: 170px; }
+img.bild2{width: 150px; height: 150px; }
+label{font-family: Arial; }
+.figure4:hover{opacity: 0.7; }
+figcaption{font-family: Arial; font-size: 12pt; color: #333; }
+.figcap2{font-family: Arial; font-size: 14pt; color: white; }
+
+table{font-family: Arial; table-layout: fixed; color: #333; }
+table.aussaat1{border: none; text-align: left; color: #333; }
+table.aussaat1 tr, td{font-size: 14px; border: none; text-align: left; color: #333; }
+table.FixHead{overflow-y: scroll; border-collapse: collapse; }
+table.FixHead thead th{position: sticky; top: 0; background-color: #d9897cff; font-size: 10pt; color: white; }
+table.FixHead td{font-size:10pt; border: none; color: #333; text-align: center; }
+table.FixHead tr:nth-child(even){background-color: #f0f0f0; }
+table.FixHead tr:hover{color: white; background-color: #e2ac9fff; }
+td{valign: top; }
+
+li{font-family: Arial; }
+li.list2{list-style-type: none; }
+ul.nav{list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+li.nav{float: left; display: inline-block; border-right: 1px solid white; }
+li a.nav{display: block; color: white; text-align: center; padding: 0.5em 0.7em; text-decoration: none; }
+li a.nav:hover{background-color: #d9897cff; }
+li.nav:last-child{border-right: none; border-left: 1px solid white; }
+li.nav2{float: left; display: inline-block; border: none; }
+ul.nav2{display: inline-block; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+.active{background-color: #d9897cff; display: block; color: white; text-align: center; padding: 0.5em 0.7em; text-decoration: none; }
+
+a.prev,a.next {text-decoration: none; font-size:24pt; top:50%; padding: 4px 8px 8px; opacity: 0.7; 
+-webkit-transition:opacity 200ms ease-out; }
+a.prev:hover,a.next:hover {opacity: 1; }
+.prev {left: 0; margin-top: 320px; background-color: #333; color: white; position: absolute; top: 50%; transform: translateY(-50%); }
+.next {right: 0; margin-top: 320px; background-color: #333; color: white; position: absolute; top: 50%; transform: translateY(-50%); }
+.slider {width:800px; position: relative; }
+.slide {position:absolute; height:100%; width:100%; }
+.slider .slide:target {z-index: 100; }
+img .slider{max-width:100%; width:100%; position:fixed; left:0; }
+ul.slider1{list-style-type: none; }
+.slider2 {width:500px; position: relative; }
+img .slider2{max-width:100%; width:500px; position:fixed; left:0; }
+
+
+
+
