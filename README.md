@@ -1,4 +1,4 @@
-# Garden_Website - from HTML to SQL/PHP
+# Garden Website - from HTML to SQL/PHP
 
 2024-02-12
 
