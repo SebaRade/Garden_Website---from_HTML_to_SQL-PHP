@@ -12,7 +12,7 @@ So I set about scraping my HTML files, transferring the data to the database and
 The information on the plants was stored in tabular form in over 220 HTML files. As I had designed all the files identically, I was fortunately able to scrape and migrate the data in a batch. To do this, I wrote a Python script to open the files sequentially, transform them into a BeatifulSoup object and select the corresponding tables. I saved the extracted data in a CSV file and imported it into a mySQL database using the import wizard.
 
 <br>
-![Unbenanntes-Diagramm drawio-2](https://github.com/SebaRade/Garden_Website---from_HTML_to_SQL-PHP/assets/156301448/7ead231a-907d-4df7-b935-0c2a19b02674)
+<img src="schema.png">
 <br>
 
 The website is only intended for my private use. I therefore used an Apache web server to enable the integration of the mySQL database using PHP on my local machine.
